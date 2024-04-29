@@ -29,16 +29,11 @@ def index(request):
 
 
 
-def booking(request):
-    return render(request, 'booking.html')
 
 
-def team(request):
-    return render(request, 'team.html')
-
-def testimonial(request):
-    return render(request, 'testimonial.html')
 
 
-def contact(request):
-    return render(request, 'contact.html')
+
+
+
+
