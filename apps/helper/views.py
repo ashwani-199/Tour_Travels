@@ -17,7 +17,7 @@ def index(request):
         'services': services,
         'service_cards': service_cards
     }
-    return render(request, 'index.html', context)
+    return render(request, 'helper/index.html', context)
 
 
 

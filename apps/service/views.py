@@ -10,4 +10,4 @@ def services(request):
         'service_obj': service_obj,
         'service_card': service_card
     }
-    return render(request, 'service.html', context)
+    return render(request, 'service/service.html', context)

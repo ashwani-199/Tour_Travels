@@ -10,4 +10,4 @@ def about(request):
         'about': about_obj,
         'about_features': about_feature
     }
-    return render(request, 'about.html', context)
+    return render(request, 'about/about.html', context)

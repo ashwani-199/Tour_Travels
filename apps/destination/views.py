@@ -9,4 +9,4 @@ def destination(request):
         'destination_obj': destination_obj,
         'destinationCard': destinationCard
     }
-    return render(request, 'destination.html', context)
+    return render(request, 'destination/destination.html', context)

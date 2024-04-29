@@ -9,4 +9,4 @@ def packages(request):
         'packages_obj': packages_obj,
         'package_cards': package_cards
     }
-    return render(request, 'package.html', context)
+    return render(request, 'package/package.html', context)
